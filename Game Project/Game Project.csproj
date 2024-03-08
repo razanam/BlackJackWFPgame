@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8DAD52D7-56C7-4034-976D-7B9D4118CFBF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Game_Project</RootNamespace>
+    <AssemblyName>Game Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Card.cs" />
+    <Compile Include="Classes\Dealer.cs" />
+    <Compile Include="Classes\Deck.cs" />
+    <Compile Include="Classes\Hand.cs" />
+    <Compile Include="Classes\Player.cs" />
+    <Compile Include="Forms\frmStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmStart.Designer.cs">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTable.Designer.cs">
+      <DependentUpon>frmTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmStart.resx">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTable.resx">
+      <DependentUpon>frmTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poker-table-background_77211-140.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackjack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nostalgic_blue_background_06_hd_pictures_169782.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_poker-chips-png_595619.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_poker-chips-png_594938.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_poker-chips-png_594395.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_poker-chips-png_5956191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_poker-chips-png_5943951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_poker-chips-png_594546.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_poker-chips-png_594998.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glossy-rectangle-button_204630.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiclipart.com-id_imwmi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonStock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-gold-coin-leprechaun-money-gold-pot-5ac31174a95299.4293746815227334286936.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pauseButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b57fcd9996e24bc43c4fc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24c5909801ae3483cb100b0584265d48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-next-page-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-to-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Close-Button-Transparent.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

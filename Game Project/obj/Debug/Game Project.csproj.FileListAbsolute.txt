@@ -1,0 +1,16 @@
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\bin\Debug\Game Project.exe.config
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\bin\Debug\Game Project.exe
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\bin\Debug\Game Project.pdb
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game Project.csprojAssemblyReference.cache
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game_Project.Forms.frmStart.resources
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game_Project.Properties.Resources.resources
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game Project.csproj.GenerateResource.cache
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game Project.csproj.CoreCompileInputs.cache
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game Project.exe
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game Project.pdb
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game_Project.Forms.frmTable.resources
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\bin\Debug\Interop.WMPLib.dll
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Interop.WMPLib.dll
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\RSA\Documents\Fall 2019\CIS 3309\Murach C# 2015 Exercises\Game Project\Game Project\obj\Debug\Game Project.csproj.ResolveComReference.cache
